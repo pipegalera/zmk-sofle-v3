@@ -62,8 +62,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder>; // Moved the encoder binding to the right side
         };
 
         layer_2 {
